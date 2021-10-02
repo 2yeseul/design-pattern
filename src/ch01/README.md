@@ -33,9 +33,10 @@ fly(), quack() -> 오리 마다 달라지는 부분
 
 # Reference
 Head First Design Pattern
+
 https://github.com/Youngerjesus/design-pattern#Strategy
-http://wiki.hash.kr/index.php/%EC%A0%84%EB%9E%B5%ED%8C%A8%ED%84%B4#cite_note-strategy03-3
-http://wiki.hash.kr/index.php/%EC%A0%84%EB%9E%B5%ED%8C%A8%ED%84%B4#cite_note-strategy03-3
+
+https://velog.io/@ljinsk3/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4-Strategy-Pattern
 
 # TODO 
 전략 패턴 사용해서 리팩토링 
