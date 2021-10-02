@@ -5,6 +5,9 @@
 
 즉 하나의 결과를 만드는 목적(메소드)는 동일하나, 그 목적을 달성할 수 있는 방법(전략, 알고리즘)이 여러가지 존재할 경우에 사용하는 패턴이다. 
 Context의 변경을 최소화하고, 인터페이스를 통해 다양한 타입을 만들어 코드를 변경할 수 있다.
+## 장점
+- 코드 중복 방지, 런타임 시점에서의 메서드 변경, 기능 확장 용이
+- 개발 중 IF-ELSE 많은 경우 사용할 수 있음
 
 # 문제
 상위 클래스 Duck을 상속받는 다양한 자식 클래스들이 있고, 오리들이 날 수 있는 기능을 추가하는 경우
@@ -26,5 +29,13 @@ fly(), quack() -> 오리 마다 달라지는 부분
 
 두 행동을 Duck 클래스로부터 분리 -> 각 행동을 나타낼 클래스 집합 새로 만든다 
 
-
 ![img2](https://snowdeer.github.io/assets/design-pattern-headfirst/strategy-1024x520.png)
+
+# Reference
+Head First Design Pattern
+https://github.com/Youngerjesus/design-pattern#Strategy
+http://wiki.hash.kr/index.php/%EC%A0%84%EB%9E%B5%ED%8C%A8%ED%84%B4#cite_note-strategy03-3
+http://wiki.hash.kr/index.php/%EC%A0%84%EB%9E%B5%ED%8C%A8%ED%84%B4#cite_note-strategy03-3
+
+# TODO 
+전략 패턴 사용해서 리팩토링 
