@@ -1,6 +1,6 @@
-package ch01.duck;
+package strategy_pattern.duck;
 
-import ch01.action.FlyBehavior;
+import strategy_pattern.action.FlyBehavior;
 
 public abstract class Duck {
     FlyBehavior flyBehavior;

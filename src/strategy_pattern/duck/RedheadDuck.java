@@ -1,7 +1,6 @@
-package ch01.duck;
+package strategy_pattern.duck;
 
-import ch01.actionDetail.FlyWithWings;
-import ch01.duck.Duck;
+import strategy_pattern.actionDetail.FlyWithWings;
 
 public class RedheadDuck extends Duck {
 
