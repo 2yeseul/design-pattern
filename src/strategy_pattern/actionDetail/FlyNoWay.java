@@ -1,6 +1,6 @@
-package ch01.actionDetail;
+package strategy_pattern.actionDetail;
 
-import ch01.action.FlyBehavior;
+import strategy_pattern.action.FlyBehavior;
 
 public class FlyNoWay implements FlyBehavior {
     @Override

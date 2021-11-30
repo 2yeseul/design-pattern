@@ -1,7 +1,6 @@
-package ch01.duck;
+package strategy_pattern.duck;
 
-import ch01.actionDetail.FlyNoWay;
-import ch01.duck.Duck;
+import strategy_pattern.actionDetail.FlyNoWay;
 
 public class ModelDuck extends Duck {
     public ModelDuck() {

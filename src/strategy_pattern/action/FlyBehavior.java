@@ -1,4 +1,4 @@
-package ch01.action;
+package strategy_pattern.action;
 
 public interface FlyBehavior {
     public void fly();
